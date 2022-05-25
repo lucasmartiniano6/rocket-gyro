@@ -1,13 +1,14 @@
 # 3D Rocket gyroscope simulation
 Based on the MPU6050 motion tracking device. This aims to recreate in-flight rocket experience based solely in the output data from the MPU6050 gyroscope and accelerometer.
 
-[Inertial rocket](screenshot.png)
+![Inertial rocket](screenshot.png)
 
-[Moving rocket](move.png)
+![Moving rocket](move.png)
 
 Nice TODO
 -----
   * Implement accelerator effects (+-2g)
+  * Kalman Filter
 
 Usage
 -----
@@ -26,3 +27,4 @@ Then, the ursina engine rotates the 3d rocket model accordingly. For simulation 
 Check for more information:
   * https://product.tdk.com/system/files/dam/doc/product/sensor/mortion-inertial/imu/data_sheet/mpu-6000-datasheet1.pdf
   * https://mjwhite8119.github.io/Robots/mpu6050
+  * https://github.com/TKJElectronics/KalmanFilter
