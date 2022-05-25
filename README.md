@@ -1,4 +1,3 @@
-# Avalanche noise random number generator
 # 3D Rocket gyroscope simulation
 Based on the MPU6050 motion tracking device. This aims to recreate in-flight rocket experience based solely in the output data from the MPU6050 gyroscope and accelerometer.
 
